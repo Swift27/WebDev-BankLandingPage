@@ -1,3 +1,9 @@
+import Nav from "./components/Nav";
+
 export default function App() {
-  return <h1 className="text-xl text-grayish-blue">Hello world!</h1>;
+  return (
+    <main>
+      <Nav />
+    </main>
+  );
 }
