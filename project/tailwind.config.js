@@ -9,8 +9,10 @@ export default {
       lg: ["18px", "21.94px"],
       xl: ["20px", "24.38px"],
       "2xl": ["24px", "29.26px"],
-      "3xl": ["28px", "50px"],
+      "3xl": ["36px", "48px"],
       "4xl": ["48px", "58px"],
+      "5xl": ["60px", "80px"],
+      "6xl": ["72px", "96px"],
       "8xl": ["96px", "106px"],
     },
     extend: {
@@ -25,6 +27,32 @@ export default {
         "light-grayish-blue": "hsl(220, 16%, 96%)",
         "very-light-gray": "hsl(0, 0%, 98%)",
         white: "hsl(0, 0%, 100%)",
+      },
+      keyframes: {
+        "scale-up-ver-top": {
+          "0%": {
+            transform: "scaleY(0)",
+            transformOrigin: "top",
+          },
+          "100%": {
+            transform: "scaleY(1)",
+            transformOrigin: "top",
+          },
+        },
+        "scale-down-ver-top": {
+          "0%": {
+            transform: "scaleY(1)",
+            transformOrigin: "top",
+          },
+          "100%": {
+            transform: "scaleY(0)",
+            transformOrigin: "top",
+          },
+        },
+      },
+      animation: {
+        "scale-up-ver-top": "scale-up-ver-top 0.4s ease-in",
+        "scale-down-ver-top": "scale-down-ver-top 0.4s ease-out",
       },
     },
   },

@@ -11,5 +11,20 @@
   scroll-behavior: smooth;
 }
 
+@layer components {
+  .container {
+    max-width: 1140px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
 @layer utilities {
+  .button {
+    @apply bg-gradient-to-r from-lime-green to-bright-cyan font-publicSans text-white rounded-full px-7 py-3 font-semibold;
+  }
+
+  .link {
+    @apply text-grayish-blue font-publicSans;
+  }
 }

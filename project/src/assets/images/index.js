@@ -13,7 +13,7 @@ import iconTwitter from "../images/icon-twitter.svg";
 import iconYoutube from "../images/icon-youtube.svg";
 import imageConfetti from "../images/image-confetti.jpg";
 import imageCurrency from "../images/image-currency.jpg";
-import imageMockups from "../images/image-mockups.jpg";
+import imageMockups from "../images/image-mockups.png";
 import imagePlane from "../images/image-plane.jpg";
 import imageRestaurant from "../images/image-restaurant.jpg";
 import logo from "../images/logo.svg";
