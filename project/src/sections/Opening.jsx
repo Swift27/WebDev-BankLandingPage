@@ -3,7 +3,7 @@ import { OpeningTextCard, OpeningPicCard } from "../components";
 
 const Opening = () => {
   return (
-    <div className="container flex flex-row justify-between items-center">
+    <div className="container flex flex-row max-lg:flex-col justify-between items-center">
       <OpeningTextCard />
       <OpeningPicCard />
     </div>
