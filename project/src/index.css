@@ -26,6 +26,6 @@
   }
 
   .link {
-    @apply font-publicSans text-sm;
+    @apply font-publicSans;
   }
 }

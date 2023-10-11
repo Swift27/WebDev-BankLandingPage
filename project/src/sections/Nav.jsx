@@ -1,15 +1,16 @@
 import { logo, iconHamburger, iconClose } from "../assets/images";
 import { navLinks } from "../constants";
-import { MenuCard, Button } from "../components";
-import { useState } from "react";
+import { Button } from "../components";
+import { useContext } from "react";
+import { AppContext } from "../App";
 
 const Nav = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const { showMenu, setShowMenu } = useContext(AppContext);
 
   return (
-    <nav className="container flex flex-col gap-6">
+    <nav className="container relative z-30 flex flex-col gap-6">
       <div className="w-full flex justify-between items-center py-5">
-        <img src={logo} alt="logo" className="" />
+        <img src={logo} alt="logo" />
         <ul className="flex justify-center items-center gap-5 max-md:hidden">
           {navLinks.map((link, index) => (
             <li key={index}>
@@ -20,7 +21,7 @@ const Nav = () => {
           ))}
         </ul>
         <img
-          className="md:hidden"
+          className="md:hidden hover:cursor-pointer"
           src={showMenu ? iconClose : iconHamburger}
           alt="hamburger"
           onClick={() => setShowMenu(!showMenu)}
@@ -29,11 +30,6 @@ const Nav = () => {
           <Button label="Request Invite" />
         </div>
       </div>
-      {showMenu && (
-        <div className="w-full">
-          <MenuCard />
-        </div>
-      )}
     </nav>
   );
 };
