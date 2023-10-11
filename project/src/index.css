@@ -25,6 +25,6 @@
   }
 
   .link {
-    @apply text-grayish-blue font-publicSans;
+    @apply font-publicSans text-sm;
   }
 }

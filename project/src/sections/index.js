@@ -1,3 +1,4 @@
+import Nav from "./Nav";
 import Opening from "./Opening";
 
-export { Opening };
+export { Nav, Opening };

@@ -1,7 +1,5 @@
-const Button = ({ label, center }) => {
-  return (
-    <button className={`button ${center && "max-lg:m-auto"}`}>{label}</button>
-  );
+const Button = ({ label }) => {
+  return <button className="button">{label}</button>;
 };
 
 export default Button;
