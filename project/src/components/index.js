@@ -5,6 +5,7 @@ import Nav from "../sections/Nav";
 import OpeningPicCard from "./OpeningPicCard";
 import OpeningTextCard from "./OpeningTextCard";
 import FeaturesCard from "./FeaturesCard";
+import ArticleCard from "./ArticleCard";
 
 export {
   Button,
@@ -14,4 +15,5 @@ export {
   OpeningPicCard,
   OpeningTextCard,
   FeaturesCard,
+  ArticleCard,
 };

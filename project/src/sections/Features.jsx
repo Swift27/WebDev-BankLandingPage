@@ -11,7 +11,7 @@ const Features = () => {
         <h1 className="font-publicSans text-3xl text-dark-blue mb-5 max-md:text-center">
           Why choose Easybank?
         </h1>
-        <p className="font-publicSans text-basis text-grayish-blue max-md:text-center px-5">
+        <p className="font-publicSans text-basis text-grayish-blue max-md:text-center max-md:px-5">
           We leverage Open Banking to turn your bank account into your financial
           hub.
         </p>
