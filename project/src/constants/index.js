@@ -12,6 +12,15 @@ import {
   imageConfetti,
 } from "../assets/images";
 
+import {
+  logo,
+  iconFacebook,
+  iconYoutube,
+  iconTwitter,
+  iconPinterest,
+  iconInstagram,
+} from "../assets/images";
+
 export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
@@ -68,4 +77,24 @@ export const articles = [
     heading: "Our invite-only Beta accounts are now live!",
     text: "After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request an invite through the site...",
   },
+];
+
+export const footerIcons = [
+  iconFacebook,
+  iconYoutube,
+  iconTwitter,
+  iconPinterest,
+  iconInstagram,
+];
+
+export const footerLinks1 = [
+  { href: "#absout-us", label: "About us" },
+  { href: "#contact", label: "Contact" },
+  { href: "#blog", label: "Blog" },
+];
+
+export const footerLinks2 = [
+  { href: "#careers", label: "Careers" },
+  { href: "#support", label: "Support" },
+  { href: "#privacy-policy", label: "Privacy Policy" },
 ];

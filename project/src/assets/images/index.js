@@ -17,6 +17,7 @@ import imageMockups from "../images/image-mockups.png";
 import imagePlane from "../images/image-plane.jpg";
 import imageRestaurant from "../images/image-restaurant.jpg";
 import logo from "../images/logo.svg";
+import logoWhite from "../images/logo-white.svg";
 
 export {
   bgIntroDesktop,
@@ -38,4 +39,5 @@ export {
   imagePlane,
   imageRestaurant,
   logo,
+  logoWhite,
 };

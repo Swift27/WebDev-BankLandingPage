@@ -1,4 +1,4 @@
-import { Nav, Opening, Features, Articles } from "./sections";
+import { Nav, Opening, Features, Articles, Footer } from "./sections";
 import { createContext, useState } from "react";
 
 export const AppContext = createContext();
@@ -26,6 +26,9 @@ export default function App() {
         </section>
         <section className="relative bg-gradient-to-b from-white to-light-grayish-blue">
           <Articles />
+        </section>
+        <section className="relative bg-dark-blue">
+          <Footer />
         </section>
       </main>
     </AppContext.Provider>
