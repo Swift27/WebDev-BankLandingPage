@@ -88,7 +88,7 @@ export const footerIcons = [
 ];
 
 export const footerLinks1 = [
-  { href: "#absout-us", label: "About us" },
+  { href: "#absout-us", label: "About Us" },
   { href: "#contact", label: "Contact" },
   { href: "#blog", label: "Blog" },
 ];
