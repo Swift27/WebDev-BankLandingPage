@@ -4,14 +4,14 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this bank landing page.
+Thanks for checking out this Calculator app.
 
 ## The challenge
 
 The users are be able to:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- See the size of the elements adjust based on their device's screen size
+- See hover states on the corresponding buttons/links
 
 ### Built with:
 
