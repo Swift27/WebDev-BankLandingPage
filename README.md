@@ -16,5 +16,5 @@ The users are be able to:
 ### Built with:
 
 - HTML5
-- CSS custom properties
-- JavaScript
+- React
+- Tailwind
