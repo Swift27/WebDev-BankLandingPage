@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this Calculator app.
+Thanks for checking out this bank landing page.
 
 ## The challenge
 
